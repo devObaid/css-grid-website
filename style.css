@@ -167,6 +167,48 @@ height: 160px;
     font-size: large;
     
 }
+.hover1:hover{
+    border-bottom: 3px solid #9d9191df ;
+    cursor: pointer;
+}
+.hover2:hover{
+    border-bottom: 3px solid #9d9191df ;
+    cursor: pointer;
+}
+.hover3:hover{
+    border-bottom: 3px solid #9d9191df ;
+    cursor: pointer;
+}
+.hover4:hover{
+    border-bottom: 3px solid #9d9191df ;
+    cursor: pointer;
+}
+.hover5:hover{
+    border-bottom: 3px solid #9d9191df ;
+    cursor: pointer;
+}
+.hover6:hover{
+    border-bottom: 3px solid #9d9191df ;
+    cursor: pointer;
+}
+.hover1:hover .hover1-img{
+    scale: 1.08;
+}
+.hover2:hover .hover2-img{
+    scale: 1.08;
+}
+.hover3:hover .hover3-img{
+    scale: 1.08;
+}
+.hover4:hover .hover4-img{
+    scale: 1.08;
+}
+.hover5:hover .hover5-img{
+    scale: 1.08;
+}
+.hover6:hover .hover6-img{
+    scale: 1.08;
+}
 .p-shop-catagory{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
