@@ -1,0 +1,136 @@
+* {
+    font-family: 'Assistant', sans-serif;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    color: rgba(19, 16, 16, 0.861) !important;
+}
+
+.p-nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr .8fr 4fr .7fr .5fr 1fr;
+    grid-template-rows: 60px 40px;
+    box-shadow: 0px 0px 3px 0px rgb(177, 168, 168);
+     
+
+}
+
+.c-nav {
+    /*border: 1px solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.item1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item1>img {
+    width: 100px;
+    padding: 10px;
+}
+
+.item2>span {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin-left: 2px;
+
+
+}
+.item3> #search-nav{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 34px;
+ padding: 10px;
+ border-bottom-left-radius: 17px ;
+ border-top-left-radius: 17px ;
+   
+      border-right: none ;
+   
+}
+.item3 > #s-icon{
+height: 34px;
+border: 1px solid rgba(19, 16, 16, 0.861) ;
+border-left: none ;
+padding: 8px;
+margin-right: 2px;
+width: 5%;
+border-bottom-right-radius: 17px ;
+border-top-right-radius: 17px ;
+border-left: none;
+
+}
+.fa-magnifying-glass{
+    background-color: #f45700
+    ; 
+}
+.item4 {
+    margin: 5px;
+}
+
+.item5 {
+    margin: 2px;
+}
+
+.item6 {
+    display: flex;
+    justify-content: flex-start;
+}
+.item7{
+  grid-row: 2;
+     grid-column: 3;
+    
+}
+.item7>ol{
+    display: flex;
+    justify-content: space-around !important;
+   
+}
+
+.item7>ol>li{
+    list-style: none;
+    margin: 15px
+    ;font-size: 14px;
+    font-weight: bold;
+
+}
+@media (max-width:760px) {
+    .item7{
+        display: none ;
+    }
+    .p-nav{
+        grid-template-rows: 60px ;   
+    }
+    
+}
+@media(max-width:662px){
+    .p-nav{
+        grid-template-columns: .2fr 4fr .5fr .5fr;
+        grid-template-rows: 50px 50px;
+    }
+    .item3{
+grid-row: 2;
+grid-column: 1/5;
+
+    }
+    .item2{
+        grid-row: 2;
+        grid-column: 1;
+        justify-content: flex-start;
+        margin: 15px;
+    }
+    .item2>span{
+        display: none;
+        
+    }
+    .item4{
+        justify-content: flex-end;
+    }
+}
